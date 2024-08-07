@@ -1,11 +1,10 @@
-
 {% load static %}
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Dennis Ivanov</title>
-	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link href="{% static '/static/css/main.css'  %}" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	
 </head>
@@ -15,9 +14,9 @@
 		<div class="row">
 			<div class="col-md-3">
 				<div class="card card-body h-100  border-info" id="profile-wrapper">
-					<img id="profile-pic" src="{% static 'images/portfolio.jpg' %}" >
+                    <img src="{%static 'images/portfolio.jpg'%}">
 					<hr>
-					<h4>Hi I'm Dennis!</h4>
+					<h4>Hi I'm Erick!</h4>
 					<p>I love coding, doing research and collaborating</p>
 				</div>
 			</div>
@@ -31,7 +30,6 @@
 					<p>Before I knew it we transitioned from the old system and we're on to mine. My newbie self was now in charge of hosting hundreds of thousands of lab samples and supporting thousands of clients.</p>
 
 					<p>From this you’ll see that I’m someone that jumps before I can talk myself out of doing something scary.</p>
-
 				</div>
 			</div>
 		</div>
