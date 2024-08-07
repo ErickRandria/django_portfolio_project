@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | My Portfolio</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -18,7 +20,79 @@
         </nav>
     </header>
     <main>
-        <h3>Hello, welcome to my page, this is my first python project.</h3>
+        <div class = 'container'>
+            <div class = 'row'>
+                <div class = 'col-md-3'>
+                    <div class = 'card card-body h-100 border info' id="profile-wrapper">
+                        <img id="profile-pic" src="{% static 'images/portfolio.jpg' %}" width="200" height="150">
+                        <hr>
+                        <h4>Hi I'm Erick!</h4>
+                        <p>I love coding, learning new things, and collaborating.</p>
+                    </div>
+                </div>
+                
+                <div class = 'col-md-9'>
+                    <div class = 'card card-body'>
+                        <h5>More about me!</h5>
+                        <hr>
+                        <p>3 months after writing my first Hello World program on September 8th 2017 (While working in the marketing department) I had convinced my boss to let me take a stab at building a better version of the outdated laboratory management system my company was running on.</p>
+                        <p>From this you’ll see that I’m someone that jumps before I can talk myself out of doing something scary.</p>
+                        <ul>
+                            <a href="#" class="fa fa-github"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-facebook"></a>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div class = 'row'>
+                <div class = 'col-md-6'>
+                    <div class = 'card card-body h-100 border info'>
+                        <h5>My Experience as a Developer</h5>
+                        <hr>
+                        <p>I love working from a place that is calm.</p>
+                    </div>
+                </div>
+                
+                <div class = 'col-md-6'>
+                    <div class = 'card card-body'>
+                        <h5>My Short Term Goals</h5>
+                        <hr>
+                        <p>3 months after writing my first Hello World program on September 8th 2017 (While working in the marketing department) I had convinced my boss to let me take a stab at building a better version of the outdated laboratory management system my company was running on.</p>
+                        <p>From this you’ll see that I’m someone that jumps before I can talk myself out of doing something scary.</p>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div class = 'row'>
+                <div class = 'col-md-6'>
+                    <div class = 'card card-body h-100 border info'>
+                        <hr>
+                        <h5>How I Learn</h5>
+                        <p>I love watching videos and doing projects with others.</p>
+                        <p>I use lots of online resources to enchance my skills.</p>
+                    </div>
+                </div>
+                
+                <div class = 'col-md-6'>
+                    <div class = 'card card-body'>
+                        <h5>My Short Term Goals</h5>
+                        <hr>
+                        <p>I want to </p>
+                        <p>From this you’ll see that I’m someone that jumps before I can talk myself out of doing something scary.</p>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div></div>
+
+        </div>
+
     </main>
     <footer>
         <p>&copy; 2024 My Portfolio</p>

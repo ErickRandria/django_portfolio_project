@@ -1,5 +1,6 @@
 /* css/styles.css */
 body {
+    background-color: #f8f8f8;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 nav a {
@@ -18,6 +19,7 @@ nav a {
 }
 
 main {
+    background-color: #f8f8f8;
     padding: 2rem;
 }
 
@@ -25,7 +27,7 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 0rem;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -57,4 +59,44 @@ button {
 
 button:hover {
     background-color: #555;
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 5px;
+    display: inline-block;
+    border-radius: 50%;
+
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-facebook{
+    background: blue;
+    color: white;
 }
