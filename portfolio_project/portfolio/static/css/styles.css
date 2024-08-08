@@ -238,7 +238,7 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("../images/Big_profile.jpeg") top center;
+    background: url("../images/Big_profile.jpg") top center;
     background-size: cover;
   }
   
