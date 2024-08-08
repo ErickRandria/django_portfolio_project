@@ -8,14 +8,21 @@
     <title>Projects | My Portfolio</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/projects/">Projects</a>
-            <a href="/skills/">Skills</a>
-            <a href="/contact/">Contact</a>
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/projects/">Projects</a>
+                <a href="/skills/">Skills</a>
+                <a href="/contact/">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/ErickRandria" class="fa fa-github" aria-label="GitHub" target="_blank" rel="noopener noreferrer"></a>
+                <a href="https://www.linkedin.com/in/hajanirina-erick-r-7a9092204/" class="fa fa-linkedin" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"></a>
+            </div>
         </nav>
     </header>
     <main>
@@ -46,24 +53,32 @@
                 <br>
                 <div class = 'col-md-6'>
                     <div class="card card-body h-100 border info">
-                        <h1>Project 1: IBM DevOps Capstone Project</h1>
+                        <h1>Project 2: Deploying a Guestbook Application</h1>
                         <p>
-                            In this comprehensive Capstone project, you will showcase your DevOps and Software Engineering expertise by developing a secure, microservices-based application deployed on the Cloud. This project integrates the skills and techniques learned throughout the IBM DevOps Engineering Professional Certificate.
+                            In this project, you will apply your DevOps and software engineering skills by deploying a guestbook application. This hands-on experience will showcase your ability to implement and manage modern software deployment practices.
                         </p>
+                        
                         <h2>Key Components:</h2>
                         <ul>
-                            <li><strong>Agile Planning:</strong> Develop a detailed Agile plan by creating user stories and a Kanban board using ZenHub and GitHub.</li>
-                            <li><strong>Application Development:</strong> Build a RESTful microservice-based application using Flask, applying Test Driven Development (TDD) to ensure robust and reliable code.</li>
-                            <li><strong>Continuous Integration and Deployment:</strong> Enhance the application with additional functionalities using Continuous Integration, and establish a seamless CI/CD pipeline for automated testing and deployment.</li>
-                            <li><strong>Security and Deployment:</strong> Implement security best practices, and deploy the application on Cloud using Kubernetes, ensuring scalability and resilience.</li>
-                            <li><strong>Monitoring and Improvement:</strong> Continuously monitor and enhance the application over multiple sprints.</li>
+                            <li><strong>Application Development:</strong> Create and configure a guestbook application with a user-friendly interface, allowing users to submit and view messages.</li>
+                            <li><strong>Continuous Integration and Deployment (CI/CD):</strong> Set up a CI/CD pipeline to automate testing and deployment processes. This will include integrating code changes, running automated tests, and deploying the application.</li>
+                            <li><strong>Containerization:</strong> Use Docker to containerize the guestbook application, ensuring consistent and portable environments across development, testing, and production stages.</li>
+                            <li><strong>Cloud Deployment:</strong> Deploy the containerized application on a cloud platform. Leverage Kubernetes for orchestration to ensure scalability and resilience of the application.</li>
+                            <li><strong>Monitoring and Maintenance:</strong> Implement monitoring solutions to track application performance and health. Regularly update and maintain the application to address issues and enhance functionality.</li>
+                        </ul>
+
+                        <h2>Learning Outcomes:</h2>
+                        <ul>
+                            <li>Develop and configure a web application.</li>
+                            <li>Implement a robust CI/CD pipeline.</li>
+                            <li>Containerize applications with Docker.</li>
+                            <li>Deploy and manage applications on the cloud using Kubernetes.</li>
+                            <li>Monitor and maintain application performance in a live environment.</li>
                         </ul>
                         <p>
-                            This project represents the culmination of your learning journey in the IBM DevOps Engineering Professional Certificate, demonstrating your ability to apply advanced DevOps practices in a real-world scenario.
+                            Explore the project on GitHub: <a href="https://github.com/ErickRandria/Guestbook_app" target="_blank">GitHub Repository</a>
                         </p>
-                        <p>
-                            Explore the project on GitHub: <a href="https://github.com/ErickRandria/devops-capstone-project" target="_blank">GitHub Repository</a>
-                        </p>  
+
                     </div>
                 </div>
             </div>
@@ -71,24 +86,38 @@
             <div class = 'row'>
                 <div class = 'col-md-6'>
                     <div class="card card-body h-100 border info">
-                        <h1>Project 1: IBM DevOps Capstone Project</h1>
+                        <h1>Project 3: Test Driven Development (TDD) and Behavior Driven Development (BDD)</h1>
                         <p>
-                            In this comprehensive Capstone project, you will showcase your DevOps and Software Engineering expertise by developing a secure, microservices-based application deployed on the Cloud. This project integrates the skills and techniques learned throughout the IBM DevOps Engineering Professional Certificate.
+                            In this section of the Coursera IBM DevOps and Software Engineering course, you will explore the concepts and practices of Test Driven Development (TDD) and Behavior Driven Development (BDD). These methodologies are critical for ensuring the quality and reliability of software through rigorous testing and clear communication of requirements.
                         </p>
-                        <h2>Key Components:</h2>
+
+                        <h2>Test Driven Development (TDD)</h2>
+                        <p>
+                            TDD is a development practice where you write tests before writing the code that needs to be tested. This approach helps in ensuring that your code meets the requirements from the very beginning and helps in catching issues early in the development process.
+                        </p>
                         <ul>
-                            <li><strong>Agile Planning:</strong> Develop a detailed Agile plan by creating user stories and a Kanban board using ZenHub and GitHub.</li>
-                            <li><strong>Application Development:</strong> Build a RESTful microservice-based application using Flask, applying Test Driven Development (TDD) to ensure robust and reliable code.</li>
-                            <li><strong>Continuous Integration and Deployment:</strong> Enhance the application with additional functionalities using Continuous Integration, and establish a seamless CI/CD pipeline for automated testing and deployment.</li>
-                            <li><strong>Security and Deployment:</strong> Implement security best practices, and deploy the application on Cloud using Kubernetes, ensuring scalability and resilience.</li>
-                            <li><strong>Monitoring and Improvement:</strong> Continuously monitor and enhance the application over multiple sprints.</li>
+                            <li><strong>Write a Test:</strong> Begin by writing a test that defines a function or improvements to a function.</li>
+                            <li><strong>Run the Test:</strong> Execute the test to ensure it fails initially (since the feature or function isn’t implemented yet).</li>
+                            <li><strong>Write the Code:</strong> Implement the code required to pass the test.</li>
+                            <li><strong>Refactor:</strong> Clean up the code while ensuring all tests still pass.</li>
+                            <li><strong>Repeat:</strong> Continue the cycle for each new feature or improvement.</li>
                         </ul>
+
+                        <h2>Behavior Driven Development (BDD)</h2>
                         <p>
-                            This project represents the culmination of your learning journey in the IBM DevOps Engineering Professional Certificate, demonstrating your ability to apply advanced DevOps practices in a real-world scenario.
+                            BDD is an extension of TDD that emphasizes collaboration between developers, QA, and non-technical or business participants in a software project. BDD focuses on the behavior of the application from the end-user’s perspective.
                         </p>
+                        <ul>
+                            <li><strong>Define Behavior:</strong> Write scenarios in plain language that describe the expected behavior of the system.</li>
+                            <li><strong>Automate Scenarios:</strong> Use tools to convert these scenarios into automated tests.</li>
+                            <li><strong>Develop Code:</strong> Implement the code to ensure the application behaves as described in the scenarios.</li>
+                            <li><strong>Review and Refactor:</strong> Continuously review and refine scenarios and code to align with user expectations and requirements.</li>
+                        </ul>
+
                         <p>
-                            Explore the project on GitHub: <a href="https://github.com/ErickRandria/devops-capstone-project" target="_blank">GitHub Repository</a>
-                        </p>  
+                            Mastering TDD and BDD will help you write more reliable and maintainable code, and ensure that the software developed meets user expectations and requirements. These practices are integral to the IBM DevOps and Software Engineering curriculum on Coursera.
+                        </p>
+                        
                     </div>
                 </div>
                 <br>
@@ -116,6 +145,7 @@
                 </div>
             </div>
         </div>
+        <br>
     </main>
     <footer>
         <p>&copy; 2024 My Portfolio</p>
