@@ -431,39 +431,79 @@ body {
   /*--------------------------------------------------------------
   # Skills
   --------------------------------------------------------------*/
-  .skills .progress {
-    height: 60px;
-    display: block;
-    background: none;
-    border-radius: 0;
-  }
-  
-  .skills .progress .skill {
-    padding: 0;
-    margin: 0 0 6px 0;
-    text-transform: uppercase;
-    display: block;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #050d18;
-  }
-  
-  .skills .progress .skill .val {
-    float: right;
-    font-style: normal;
-  }
-  
-  .skills .progress-bar-wrap {
-    background: #dce8f8;
-    height: 10px;
-  }
-  
-  .skills .progress-bar {
-    width: 1px;
-    height: 10px;
-    transition: 0.9s;
-    background-color: #149ddd;
-  }
+  #skills {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #444;
+}
+
+.skills-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.frontend-skills, .backend-skills {
+    width: 45%;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem; /* Adjust text size */
+}
+
+.skill-item i {
+    font-size: 3rem; /* Enlarges the icons */
+    margin-right: 15px; /* Spacing between icon and text */
+    color: #007bff; /* Color for icons */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.skill-item i:hover {
+    color: #0056b3; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.skill-item span {
+    font-size: 1.2rem; /* Adjust text size */
+    color: #555;
+}
+
+/* Responsive adjustments */
+/* @media (max-width: 768px) {
+    .skills-section {
+        flex-direction: column;
+    }
+
+    .frontend-skills, .backend-skills {
+        width: 100%;
+        margin-bottom: 2rem;
+        background-color: black;
+    }
+} */
   
   /*--------------------------------------------------------------
   # Resume
