@@ -238,7 +238,7 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("../images/Big_profile.jpg") top center;
+    background: url("../images/Big_profile.jpg") fixed;
     background-size: cover;
   }
   
@@ -432,8 +432,7 @@ body {
   # Skills
   --------------------------------------------------------------*/
   #skills {
-    padding: 2rem;
-    background-color: #ffffff;
+    background: url("../images/wallpaper.jpg") fixed;
 }
 
 .container {
@@ -462,7 +461,7 @@ h2 {
     padding: 60px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #020226;
     text-align: left;
 }
 .backend-skills{
@@ -470,15 +469,15 @@ h2 {
     padding: 60px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #020226;
     text-align: left;
 }
 
 h3 {
     grid-column: span 2; /* Span the title across both columns */
     margin-bottom: 1rem;
-    font-size: 3rem;
-    color: #222;
+    font-size: 5rem;
+    color: #d2dcdd;
 }
 
 .skill-item {
@@ -491,18 +490,18 @@ h3 {
 .skill-item i {
     font-size: 3rem; /* Enlarges the icons */
     margin-right: 15px; /* Spacing between icon and text */
-    color: #007bff; /* Color for icons */
+    color: #30cfc4; /* Color for icons */
     transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
 }
 
 .skill-item i:hover {
-    color: #0056b3; /* Change color on hover */
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    color: #fbfdfd; /* Change color on hover */
+    transform: scale(2); /* Slightly enlarge on hover */
 }
 
 .skill-item span {
     font-size: 1.2rem; /* Adjust text size */
-    color: #555;
+    color: #d2dcdd;
 }
 
 
