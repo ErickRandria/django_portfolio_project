@@ -440,12 +440,6 @@ body {
     margin: 0 auto;
 }
 
-h1 {
-    text-align: left;
-    margin-bottom: 1rem;
-    color: #d2dcdd;
-}
-
 .skills-section {
     display: flex;
     justify-content: space-between;
@@ -479,6 +473,20 @@ h3 {
     color: #d2dcdd;
 }
 
+h2 {
+    
+    padding-right: 15%;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #d2dcdd;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #d2dcdd;
+}
+
 .skill-item {
     display: flex;
     align-items: center;
@@ -487,7 +495,7 @@ h3 {
 }
 
 .skill-item i {
-    font-size: 3rem; /* Enlarges the icons */
+    font-size: 60px; /* Enlarges the icons */
     margin-right: 15px; /* Spacing between icon and text */
     color: #30cfc4; /* Color for icons */
     transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
