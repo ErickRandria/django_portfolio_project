@@ -1,6 +1,212 @@
 {% load static %}
-{% include "base.html" %}
 
-{% block content1 %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-{% endblock content1 %}
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <title>Erick's portfolio</title>
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+
+    <!-- Bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicons -->
+    <!-- <link href="{% static 'img/favicon.png' %}" rel="icon">
+    <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon"> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons/css/boxicons.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- Little Javascript section for the hero section-->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var options = {
+          strings: document
+            .querySelector(".typed")
+            .getAttribute("data-typed-items")
+            .split(", "),
+          typeSpeed: 10,
+          backSpeed: 25,
+          backDelay: 1000,
+          loop: true,
+        };
+        new Typed(".typed", options);
+      });
+    </script>
+  </head>
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="{% static 'images/portfolio.jpg' %}"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          <h1 class="text-light"><a href="index.html">Erick R.</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a href="https://www.facebook.com/haja2018" class="facebook"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/hajanirina-erick-r-7a9092204/"
+              class="linkedin"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://github.com/ErickRandria" class="github"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="mailto:hajjaerick@gmail.com" class="gmail"
+              ><i class="bx bxl-gmail"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="navbar-container">
+          <nav id="navbar" class="nav-menu navbar">
+            <ul>
+              <li>
+                <a href="#hero" class="nav-link scrollto active"
+                  ><i class="bx bx-home"></i> <span>Home</span></a
+                >
+              </li>
+              <li>
+                <a href="#about" class="nav-link scrollto"
+                  ><i class="bx bx-user"></i> <span>About</span></a
+                >
+              </li>
+              <!-- <li><a href="#Facts" class="nav-link scrollto"><i class='bx bxs-face' ></i> <span>Facts</span></a></li> -->
+              <!-- <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li> -->
+              <li>
+                <a href="#skills" class="nav-link scrollto"
+                  ><i class="bx bx-server"></i> <span>Skills</span></a
+                >
+              </li>
+              <li>
+                <a href="#portfolio" class="nav-link scrollto"
+                  ><i class="bx bx-server"></i> <span>Projects</span></a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="nav-link scrollto"
+                  ><i class="bx bx-envelope"></i> <span>Contact</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+          <!-- .nav-menu -->
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="hero-container" data-aos="fade-in">
+        <h4>Hello, my name is</h4>
+        <h1>Erick H. Randriamanantena</h1>
+        <p>
+          I'm a
+          <span
+            class="typed"
+            data-typed-items="Python Developer, Data Scientist, Software Engineer, Full-Stack Developer, Freelancer"
+          ></span>
+        </p>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="row my-5">
+          <div class="col-4 d-flex justify-content-center align-items-center">
+            <img
+              src="{% static 'images/Big_profile.jpg' %}"
+              alt="images"
+              class="about_image"
+            />
+          </div>
+
+          <div class="col-7">
+            <h2>Hello!</h2>
+            <p class="fs-5">
+              I am graduated from
+              <a href="https://www.leeds.ac.uk/">the University of Leeds</a>,
+              UK. I pursued a MSc in Astronomy and Data Science. I bring a
+              diverse background encompassing roles such as fullstack Python
+              developer, data scientist, ML Engineer, and freelancer. Alongside,
+              I pocess experience in the networking sector, and teamwork.
+            </p>
+            <p class="fs-5">
+              As a software engineer and full-stack Python developer, I excel in
+              designing and developing high-quality, scalable applications. With
+              a strong foundation in algorithms, data structures, and system
+              architecture, I specialize in both front-end and back-end
+              technologies. Proficient in Python, I have deep experience with
+              Django, Flask, and modern front-end libraries. Additionally, I
+              leverage my machine learning skills to develop intelligent,
+              data-driven solutions. My approach is grounded in Agile and DevOps
+              methodologies, ensuring seamless integration, collaboration, and
+              the delivery of innovative software solutions.
+            </p>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <h1 class="text-center">My tech stack</h1>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- Skills section -->
+      <section id="skills" class="Skills">
+        
+      </section>
+      <!-- End Skills Section -->
+
+      <!-- Projects Section -->
+      <section id="portfolio" class="Projects">
+        <div>
+          <h1>Here we can lists all of the projects</h1>
+        </div>
+      </section>
+      <!-- End Projects Section -->
+
+      <section id="contact" class="Contact">
+        <div>
+          <h1>Here we can put the way to contact me.</h1>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

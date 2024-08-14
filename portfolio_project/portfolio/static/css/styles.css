@@ -259,23 +259,34 @@ body {
     min-width: 300px;
   }
   
+#hero h4 {
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(228, 153, 33);
+}
+
   #hero h1 {
+    text-align: center;
     margin: 0 0 10px 0;
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color: #fff;
+    color: rgb(235, 229, 225);
   }
   
   #hero p {
-    color: #fff;
+    text-align: center;
+    margin: 0 0 10px 0;
+    color: #e9f0f1;
     margin-bottom: 50px;
-    font-size: 26px;
+    font-size: 25px;
     font-family: "Poppins", sans-serif;
   }
   
   #hero p span {
-    color: #fff;
+    color: white;
     padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: none;
@@ -344,6 +355,25 @@ body {
   # About
   --------------------------------------------------------------*/
 
+  .about .about_image{
+    width: 250px;
+    height: 300px;
+    display: block;
+  }
+
+  .about h2 {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+  }
+
+.about h1 {
+  margin: auto;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
 
   .about .content h3 {
     font-weight: 700;
@@ -377,6 +407,7 @@ body {
     margin-bottom: 0;
   }
   
+
   /*--------------------------------------------------------------
   # Facts
   --------------------------------------------------------------*/
