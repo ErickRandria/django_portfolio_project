@@ -58,9 +58,9 @@
     </script>
   </head>
   <body>
+    <!-- Navbar begin -->
     <!-- ======= Mobile nav toggle button ======= -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
     <header id="header">
       <div class="d-flex flex-column">
         <div class="profile">
@@ -101,20 +101,18 @@
                   ><i class="bx bx-user"></i> <span>About</span></a
                 >
               </li>
-              <!-- <li><a href="#Facts" class="nav-link scrollto"><i class='bx bxs-face' ></i> <span>Facts</span></a></li> -->
-              <!-- <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li> -->
               <li>
                 <a href="#skills" class="nav-link scrollto"
                   ><i class="bx bx-server"></i> <span>Skills</span></a
                 >
               </li>
               <li>
-                <a href="#portfolio" class="nav-link scrollto"
+                <a href="#projects" class="nav-link scrollto"
                   ><i class="bx bx-server"></i> <span>Projects</span></a
                 >
               </li>
               <li>
-                <a href="#Certifications" class="nav-link scrollto"
+                <a href="#certifications" class="nav-link scrollto"
                   ><i class="bx bx-certification"></i>
                   <span>Certifications</span></a
                 >
@@ -131,11 +129,10 @@
               </li>
             </ul>
           </nav>
-          <!-- .nav-menu -->
         </div>
       </div>
     </header>
-    <!-- End Header -->
+    <!-- End Navbar menu -->
 
     <!-- ======= Hero Section ======= -->
     <section
@@ -159,6 +156,9 @@
     <main id="main">
       <!-- ======= About Section ======= -->
       <section id="about" class="about">
+        <div class="row my-5 justify-content-center">
+            <h1>About me</h1>
+        </div>
         <div class="row my-5">
           <div class="col-4 d-flex justify-content-center align-items-center">
             <img
@@ -202,7 +202,7 @@
           <div class="col-4 d-flex justify-content-center">
             <h2>Front-end</h2>
           </div>
-          <div class="col-7 d-flex justify-content-center">
+          <div class="col-7 d-flex justify-content-around">
             <img
               src="{% static 'images/html.png' %}"
               alt="html logo"
@@ -241,10 +241,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-4 d-flex justify-content-center">
+          <div class="col-4 d-flex justify-content-around">
             <h2>Backend</h2>
           </div>
-          <div class="col-7 d-flex justify-content-center">
+          <div class="col-7 d-flex justify-content-around">
             <img
               src="{% static 'images/django.png' %}"
               alt="django logo"
@@ -259,20 +259,13 @@
               height="100"
               class="img-fluid"
             />
-            <img
-              src="{% static 'images/bootstrap.png' %}"
-              alt="bootstrap logo"
-              width="100"
-              height="100"
-              class="img-fluid"
-            />
           </div>
         </div>
         <div class="row my-5">
-          <div class="col-4 d-flex justify-content-center">
+          <div class="col-4 d-flex justify-content-around">
             <h2 class="fs-5">Version Control</h2>
           </div>
-          <div class="col-7 d-flex justify-content-center">
+          <div class="col-7 d-flex justify-content-around">
             <img
               src="{% static 'images/git.png' %}"
               alt="git logo"
@@ -290,10 +283,10 @@
           </div>
         </div>
         <div class="row my-5">
-          <div class="col-4 d-flex justify-content-center">
+          <div class="col-4 d-flex justify-content-around">
             <h2>Others</h2>
           </div>
-          <div class="col-7 d-flex justify-content-center">
+          <div class="col-7 d-flex justify-content-around">
             <img
               src="{% static 'images/jupyter.png' %}"
               alt="jupyter logo"
@@ -325,18 +318,22 @@
           </div>
         </div>
         <div class="row my-5">
-          <div class="col-4 d-flex justify-content-center">
-            <h2>Libaries</h2>
+          <div class="col-4 d-flex justify-content-around">
+            <h2>Preferred Libaries</h2>
           </div>
-          <div class="col-7 d-flex justify-content-center">
-            <h4>Pandas, Tensorflow, Scickit-Learn, Matplotlib, Numpy</h4>
+          <div class="col-7 d-flex justify-content-around">
+            <button>Numpy</button> <button>Pandas</button>
+            <button>Scikit-Learn</button> <button>Tensorflow</button>
+            <button>Matplotlib</button> <button>Requests</button>
+            <button>BeautifulSoup</button> <button>Selenium</button>
+            <button>Pytest</button>
           </div>
         </div>
       </section>
       <!-- End Skills Section -->
 
       <!-- Projects Section -->
-      <section id="portfolio" class="Projects">
+      <section id="projects" class="Projects">
         <div>
           <h1>Here we can lists all of the projects</h1>
         </div>
