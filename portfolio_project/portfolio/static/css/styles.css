@@ -432,7 +432,7 @@ body {
   # Skills
   --------------------------------------------------------------*/
   #skills {
-    background: url("../images/wallpaper.jpg") fixed;
+    background: url("../images/photo.jpg") center;
 }
 
 .container {
@@ -455,14 +455,14 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: left;
-    background: url("../images/wallpaper.jpg") fixed;
+    background: url("../images/photo.jpg") fixed;
 }
 .backend-skills{
     width: 45%;
     padding: 60px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    background: url("../images/wallpaper.jpg") fixed;
+    background: url("../images/photo.jpg") fixed;
     text-align: left;
 }
 
