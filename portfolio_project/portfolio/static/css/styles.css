@@ -312,46 +312,6 @@ body {
   }
   
   /*--------------------------------------------------------------
-  # Sections General
-  --------------------------------------------------------------*/
-  section {
-    padding: 60px 0;
-    overflow: hidden;
-  }
-  
-  .section-bg {
-    background: #f5f8fd;
-  }
-  
-  .section-title {
-    padding-bottom: 30px;
-  }
-  
-  .section-title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #173b6c;
-  }
-  
-  .section-title h2::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #149ddd;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .section-title p {
-    margin-bottom: 0;
-  }
-  
-  /*--------------------------------------------------------------
   # About
   --------------------------------------------------------------*/
 
@@ -366,14 +326,6 @@ body {
     color: black;
     font-size: 20px;
   }
-
-.about h1 {
-  margin: auto;
-  text-align: center;
-  color: black;
-  font-size: 30px;
-  font-weight: 700;
-}
 
   .about .content h3 {
     font-weight: 700;
@@ -407,155 +359,26 @@ body {
     margin-bottom: 0;
   }
   
-
-  /*--------------------------------------------------------------
-  # Facts
-  --------------------------------------------------------------*/
-  .facts {
-    padding-bottom: 30px;
-  }
-  
-  .facts .count-box {
-    padding: 30px;
-    width: 100%;
-  }
-  
-  .facts .count-box i {
-    display: block;
-    font-size: 44px;
-    color: #149ddd;
-    float: left;
-    line-height: 0;
-  }
-  
-  .facts .count-box span {
-    font-size: 48px;
-    line-height: 40px;
-    display: block;
-    font-weight: 700;
-    color: #050d18;
-    margin-left: 60px;
-  }
-  
-  .facts .count-box p {
-    padding: 15px 0 0 0;
-    margin: 0 0 0 60px;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    color: #122f57;
-  }
-  
-  .facts .count-box a {
-    font-weight: 600;
-    display: block;
-    margin-top: 20px;
-    color: #122f57;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    transition: ease-in-out 0.3s;
-  }
-  
-  .facts .count-box a:hover {
-    color: #1f5297;
-  }
   
   /*--------------------------------------------------------------
   # Skills
   --------------------------------------------------------------*/
-  #skills {
-    background: url("../images/photo.jpg") center;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.skills-section {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.frontend-skills , .others-skills{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem; /* Space between grid items */
-    width: 45%;
-    padding: 60px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: left;
-    background: url("../images/photo.jpg") fixed;
-}
-.backend-skills{
-    width: 45%;
-    padding: 60px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    background: url("../images/photo.jpg") fixed;
-    text-align: left;
-}
-
-h3 {
-    grid-column: span 2; /* Span the title across both columns */
-    margin-bottom: 1rem;
-    font-size: 5rem;
-    color: #d2dcdd;
-}
-
-h2 {
-    
-    padding-right: 15%;
-    text-align: center;
-    margin-bottom: 1rem;
-    color: #d2dcdd;
-}
-
-h1 {
-    text-align: left;
-    margin-bottom: 1rem;
-    color: #d2dcdd;
-}
-
-.skill-item {
-    display: flex;
+  .skills{
+    background-color: black;
+  }
+  .skills img {
+    margin-right: 50px;
     align-items: center;
-    margin-bottom: 1.5rem;
-    font-size: 1.2rem; /* Adjust text size */
-}
+    margin-left: 50px;
 
-.skill-item i {
-    font-size: 60px; /* Enlarges the icons */
-    margin-right: 15px; /* Spacing between icon and text */
-    color: #30cfc4; /* Color for icons */
-    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
-}
-
-.skill-item i:hover {
-    color: #fbfdfd; /* Change color on hover */
-    transform: scale(2); /* Slightly enlarge on hover */
-}
-
-.skill-item span {
-    font-size: 1.2rem; /* Adjust text size */
-    color: #d2dcdd;
-}
-
-
-
-/* Responsive adjustments */
-/* @media (max-width: 768px) {
-    .skills-section {
-        flex-direction: column;
-    }
-
-    .frontend-skills, .backend-skills {
-        width: 100%;
-        margin-bottom: 2rem;
-        background-color: black;
-    }
-} */
+  }
+  .skills h2 {
+    margin: auto;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+  }
   
   /*--------------------------------------------------------------
   # Resume

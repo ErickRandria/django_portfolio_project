@@ -259,23 +259,34 @@ body {
     min-width: 300px;
   }
   
+#hero h4 {
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(228, 153, 33);
+}
+
   #hero h1 {
+    text-align: center;
     margin: 0 0 10px 0;
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color: red;
+    color: rgb(235, 229, 225);
   }
   
   #hero p {
-    color: #fff;
+    text-align: center;
+    margin: 0 0 10px 0;
+    color: #e9f0f1;
     margin-bottom: 50px;
-    font-size: 26px;
+    font-size: 25px;
     font-family: "Poppins", sans-serif;
   }
   
   #hero p span {
-    color: #fff;
+    color: white;
     padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: none;
@@ -344,6 +355,25 @@ body {
   # About
   --------------------------------------------------------------*/
 
+  .about .about_image{
+    width: 250px;
+    height: 300px;
+    display: block;
+  }
+
+  .about h2 {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+  }
+
+.about h1 {
+  margin: auto;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
 
   .about .content h3 {
     font-weight: 700;
@@ -377,6 +407,7 @@ body {
     margin-bottom: 0;
   }
   
+
   /*--------------------------------------------------------------
   # Facts
   --------------------------------------------------------------*/
@@ -431,100 +462,7 @@ body {
   /*--------------------------------------------------------------
   # Skills
   --------------------------------------------------------------*/
-  #skills {
-    background: url("../images/photo.jpg") center;
-}
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.skills-section {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.frontend-skills , .others-skills{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem; /* Space between grid items */
-    width: 45%;
-    padding: 60px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: left;
-    background: url("../images/photo.jpg") fixed;
-}
-.backend-skills{
-    width: 45%;
-    padding: 60px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    background: url("../images/photo.jpg") fixed;
-    text-align: left;
-}
-
-h3 {
-    grid-column: span 2; /* Span the title across both columns */
-    margin-bottom: 1rem;
-    font-size: 5rem;
-    color: #d2dcdd;
-}
-
-h2 {
-    
-    padding-right: 15%;
-    text-align: center;
-    margin-bottom: 1rem;
-    color: #d2dcdd;
-}
-
-h1 {
-    text-align: left;
-    margin-bottom: 1rem;
-    color: #d2dcdd;
-}
-
-.skill-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-    font-size: 1.2rem; /* Adjust text size */
-}
-
-.skill-item i {
-    font-size: 60px; /* Enlarges the icons */
-    margin-right: 15px; /* Spacing between icon and text */
-    color: #30cfc4; /* Color for icons */
-    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
-}
-
-.skill-item i:hover {
-    color: #fbfdfd; /* Change color on hover */
-    transform: scale(2); /* Slightly enlarge on hover */
-}
-
-.skill-item span {
-    font-size: 1.2rem; /* Adjust text size */
-    color: #d2dcdd;
-}
-
-
-
-/* Responsive adjustments */
-/* @media (max-width: 768px) {
-    .skills-section {
-        flex-direction: column;
-    }
-
-    .frontend-skills, .backend-skills {
-        width: 100%;
-        margin-bottom: 2rem;
-        background-color: black;
-    }
-} */
   
   /*--------------------------------------------------------------
   # Resume
