@@ -20,8 +20,10 @@
     />
 
     <!-- Favicons -->
-    <!-- <link href="{% static 'img/favicon.png' %}" rel="icon">
-    <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon"> -->
+    <link
+      href="{% static 'img/apple-touch-icon.png' %}"
+      rel="apple-touch-icon"
+    />
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons/css/boxicons.min.css"
@@ -333,17 +335,18 @@
 
       <!-- Projects Section -->
       <section id="projects" class="Projects">
-        <div class="row my-5">
+        <h2 class="text-center">My Projects</h2>
+        <div class="row my-2 justify-content-center">
           {% for project in projects_show %}
-        <div class="col my-12">
-            <h4>{{project.title}}</h4>
+          <div class="col-6 my-5">
+            <h4 class="text-center">{{project.title}}</h4>
             <img
               src="{% static project.path %}"
-              width="1500"
-              height="1500"
-              class="img-fluid"
+              width="500"
+              height="800"
+              class="img-fluid align-items-center"
             />
-        </div>
+          </div>
           {% endfor %}
         </div>
       </section>
