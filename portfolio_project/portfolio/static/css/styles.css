@@ -392,3 +392,14 @@
 #certifications .jumbotron:hover h4 {
   text-decoration: none;
 }
+/*--------------------------------------------------------------
+  # Contact
+  --------------------------------------------------------------*/
+  .social_contact{
+    overflow: hidden;
+    border-radius: 50px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
