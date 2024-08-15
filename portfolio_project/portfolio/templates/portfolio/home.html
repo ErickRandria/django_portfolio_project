@@ -1,6 +1,5 @@
-{% load static %}
-
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -157,7 +156,7 @@
       <!-- ======= About Section ======= -->
       <section id="about" class="about">
         <div class="row my-5 justify-content-center">
-            <h1>About me</h1>
+          <h1>About me</h1>
         </div>
         <div class="row my-5">
           <div class="col-4 d-flex justify-content-center align-items-center">
@@ -334,8 +333,18 @@
 
       <!-- Projects Section -->
       <section id="projects" class="Projects">
-        <div>
-          <h1>Here we can lists all of the projects</h1>
+        <div class="row my-5">
+          {% for project in projects_show %}
+        <div class="col my-12">
+            <h4>{{project.title}}</h4>
+            <img
+              src="{% static project.path %}"
+              width="1500"
+              height="1500"
+              class="img-fluid"
+            />
+        </div>
+          {% endfor %}
         </div>
       </section>
       <!-- End Projects Section -->

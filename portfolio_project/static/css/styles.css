@@ -312,46 +312,6 @@ body {
   }
   
   /*--------------------------------------------------------------
-  # Sections General
-  --------------------------------------------------------------*/
-  section {
-    padding: 60px 0;
-    overflow: hidden;
-  }
-  
-  .section-bg {
-    background: #f5f8fd;
-  }
-  
-  .section-title {
-    padding-bottom: 30px;
-  }
-  
-  .section-title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #173b6c;
-  }
-  
-  .section-title h2::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #149ddd;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .section-title p {
-    margin-bottom: 0;
-  }
-  
-  /*--------------------------------------------------------------
   # About
   --------------------------------------------------------------*/
 
@@ -366,14 +326,6 @@ body {
     color: black;
     font-size: 20px;
   }
-
-.about h1 {
-  margin: auto;
-  text-align: center;
-  color: black;
-  font-size: 30px;
-  font-weight: 700;
-}
 
   .about .content h3 {
     font-weight: 700;
@@ -407,62 +359,26 @@ body {
     margin-bottom: 0;
   }
   
-
-  /*--------------------------------------------------------------
-  # Facts
-  --------------------------------------------------------------*/
-  .facts {
-    padding-bottom: 30px;
-  }
-  
-  .facts .count-box {
-    padding: 30px;
-    width: 100%;
-  }
-  
-  .facts .count-box i {
-    display: block;
-    font-size: 44px;
-    color: #149ddd;
-    float: left;
-    line-height: 0;
-  }
-  
-  .facts .count-box span {
-    font-size: 48px;
-    line-height: 40px;
-    display: block;
-    font-weight: 700;
-    color: #050d18;
-    margin-left: 60px;
-  }
-  
-  .facts .count-box p {
-    padding: 15px 0 0 0;
-    margin: 0 0 0 60px;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    color: #122f57;
-  }
-  
-  .facts .count-box a {
-    font-weight: 600;
-    display: block;
-    margin-top: 20px;
-    color: #122f57;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    transition: ease-in-out 0.3s;
-  }
-  
-  .facts .count-box a:hover {
-    color: #1f5297;
-  }
   
   /*--------------------------------------------------------------
   # Skills
   --------------------------------------------------------------*/
+  .skills{
+    background-color: black;
+  }
+  .skills img {
+    margin-right: 50px;
+    align-items: center;
+    margin-left: 50px;
 
+  }
+  .skills h2 {
+    margin: auto;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+  }
   
   /*--------------------------------------------------------------
   # Resume
