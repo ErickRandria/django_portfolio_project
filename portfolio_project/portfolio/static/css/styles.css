@@ -100,7 +100,7 @@
 
 #header .profile .social-links a:hover {
   transform: scale(1.5);
-  background-color: #124170;
+  background-color: #2742a2;
 }
 
 #main {
@@ -395,11 +395,13 @@
 /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
-  .social_contact{
+  #contact .social_contact{
     overflow: hidden;
-    border-radius: 50px;
-    border: 2px solid white;
+    border-radius: 70%;
+    border: 2px solid #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50px;
+    height: 50px;
   }
