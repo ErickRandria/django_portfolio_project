@@ -1,0 +1,71 @@
+<h1 class="text-center mt-5">Contact</h1>
+        <div class="row">
+          <div class="col-4">
+            <h1 class="mt-5 text-center" style="margin-left: 100px">
+              Stay in touch!
+            </h1>
+            <div class="align-items-center d-flex ms-3">
+              <a
+                href="https://www.linkedin.com/in/hajanirina-erick-r-7a9092204/"
+                ><img
+                  src="{% static 'images/social_network/linkedin.png' %}"
+                  alt="linkedin logos "
+                  class="social_contact"
+              /></a>
+              <a href="https://github.com/ErickRandria"
+                ><img
+                  src="{% static 'images/social_network/github.png' %}"
+                  alt="github logos "
+                  class="social_contact"
+              /></a>
+              <a href="https://github.com/ErickRandria"
+                ><img
+                  src="{% static 'images/social_network/facebook.png' %}"
+                  alt="facebook logos "
+                  class="social_contact"
+              /></a>
+            </div>
+          </div>
+          <div class="col-7 d-flex justify-content-center">
+            <div class="container form-container">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Your Name</label
+                  >
+                  <input
+                    type="name"
+                    class="form-control"
+                    id="name"
+                    aria-describedby="namehelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="phone no" class="form-label">Tel</label>
+                  <input
+                    type="phone"
+                    class="form-control"
+                    id="phone"
+                    aria-describedby="phoneHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="mes">Message</label>
+                  <textarea class="form-control" id="msg" rows="2"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
